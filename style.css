@@ -106,8 +106,30 @@ nav ul li:hover {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.div1 {
+  background-color: transparent;
+  position: absolute;
+  left: 5rem;
+  top: 10rem;
+  width: 10rem;
+  height: 10rem;
+  border-top: 1rem solid #ff004f;
+  border-left: 1rem solid #ff004f;
+}
+
+.div2 {
+  background-color: transparent;
+  position: absolute;
+  left: 29rem;
+  bottom: 10rem;
+  width: 10rem;
+  height: 10rem;
+  border-bottom: 1rem solid #ff004f;
+  border-right: 1rem solid #ff004f;
+}
+
 .aboutpicture {
-  border: black solid 5px;
+  border: black solid 1px;
   width: 400px;
   height: 400px;
   position: absolute;
@@ -116,6 +138,7 @@ nav ul li:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 2px 2px 8px rgba(0,0,0,.8);
 }
 
 .description {
